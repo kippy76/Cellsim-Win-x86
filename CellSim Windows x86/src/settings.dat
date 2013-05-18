@@ -1,0 +1,160 @@
+# This template scenario encompasses all of the aspects of the mode that can be configured.
+# Lines preceeded by '#' are ingored.
+# To randomly disperse a colony across the screen in a diffuse fashion, set the 'startX' and 'startY' values to 0.
+# Currently, E.coli cells MUST be defined in the [Colony] subsection first to ensure they attack C.diff cells.
+#   (On bug list for future releases).
+# Highly recommended that you DO NOT run in fullscreen initially, as it may lock the video driver due to 
+# further work being required on the graphics compatibility checks.
+# Runs fine on my Inspiron 1525, but fails to run fullscreen on my Acer.
+#   (On bug list for future releases)
+
+[General]
+screenwidth = 1280
+screenheight = 720
+screenborder = 20
+fullscreen = 0
+maxcells = 500000
+mucuslayerdepth = 5
+flowrate = 0.4
+
+[Strain]
+name = E.coli
+id = 1
+name = C.diff
+id = 2
+
+[Colony]
+
+colonyid = 14
+strainid = 1
+size = 50
+colour = green
+mitosismins = 20
+startX = 1200
+startY = 200
+
+colonyid = 15
+strainid = 1
+size = 50
+colour = green
+mitosismins = 20
+startX = 1200
+startY = 520
+
+colonyid = 16
+strainid = 1
+size = 100
+colour = green
+mitosismins = 20
+startX = 0
+startY = 0
+
+colonyid = 1
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 100
+startY = 22
+
+colonyid = 2
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 300
+startY = 22
+
+colonyid = 3
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 500
+startY = 22
+
+colonyid = 4
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 700
+startY = 22
+
+colonyid = 5
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 900
+startY = 22
+
+colonyid = 6
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 1100
+startY = 22
+
+colonyid = 7
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 100
+startY = 697
+
+colonyid = 8
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 300
+startY = 697
+
+colonyid = 9
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 500
+startY = 697
+
+colonyid = 10
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 700
+startY = 697
+
+colonyid = 11
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 900
+startY = 697
+
+colonyid = 12
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 1100
+startY = 697
+
+# random diffusion of C.diff
+colonyid = 13
+strainid = 2
+size = 100
+colour = red
+mitosismins = 40
+startX = 0
+startY = 0
+
+[Nutrients]
+supplypergen = 700
+consumptionpercellpergen = 0.02
+initialvolume = 40000

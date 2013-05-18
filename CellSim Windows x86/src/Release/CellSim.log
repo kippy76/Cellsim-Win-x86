@@ -1,0 +1,17 @@
+﻿  CAException.cpp
+  Cell.cpp
+  CellSim.cpp
+  Colony.cpp
+  Controller.cpp
+  Generator.cpp
+  IO.cpp
+  Model.cpp
+  Nutrient.cpp
+  Strain.cpp
+  View.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  CAException.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  Finished generating code
+  CellSim.vcxproj -> C:\Users\ABACAB\Desktop\CellSim Windows x86\Release\CellSim.exe
